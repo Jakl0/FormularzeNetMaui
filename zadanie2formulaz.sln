@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie2formulaz", "zadanie2formulaz\zadanie2formulaz.csproj", "{281D4575-CD81-4139-9E83-CA58FD8008A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie3formulaz", "zadanie3formulaz\zadanie3formulaz.csproj", "{75C94894-9F32-4ECB-AB6B-183B77085F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie4formularz", "zadanie4formularz\zadanie4formularz.csproj", "{A491E90C-F275-44CC-8D07-4834A15D0B59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{75C94894-9F32-4ECB-AB6B-183B77085F94}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{75C94894-9F32-4ECB-AB6B-183B77085F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75C94894-9F32-4ECB-AB6B-183B77085F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A491E90C-F275-44CC-8D07-4834A15D0B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A491E90C-F275-44CC-8D07-4834A15D0B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A491E90C-F275-44CC-8D07-4834A15D0B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A491E90C-F275-44CC-8D07-4834A15D0B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

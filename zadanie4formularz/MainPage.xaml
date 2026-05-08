@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zadanie4formularz.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+
+            <Entry Text="" x:Name="nameEntry" />
+            <Entry Text="" x:Name="mailEntry" />
+
+            <Picker SelectedIndexChanged="tematchanged" x:Name="tematPicker"/>
+
+
+            <Editor x:Name="messageEdit"/>
+
+            <Picker SelectedIndexChanged="priorytetchanged" x:Name="priorPicker"/>
+            <HorizontalStackLayout>
+                <CheckBox x:Name="copyCheckbox"/>
+                <Label/>
+            </HorizontalStackLayout>
+
+            <Button Text="Wyślij"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
