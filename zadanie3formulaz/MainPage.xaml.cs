@@ -18,4 +18,4 @@
             DisplayAlert("Zarejestrowano", "😎😎😎", "👍👍👍");
         }
     }
-}
+}//
