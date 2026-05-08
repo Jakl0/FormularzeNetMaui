@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zadanie3formulaz.MainPage">
+
+    <ScrollView>
+        <Grid RowSpacing="20"
+              ColumnSpacing="20"
+              Padding="20"
+              Margin="20"
+              RowDefinitions="auto,auto,auto,auto,auto,auto"
+              ColumnDefinitions="*,*"
+              >
+
+            <Entry Placeholder="Imie" MaxLength="50" Keyboard="Default" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Entry Placeholder="Email" Keyboard="Email" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+            <Entry IsPassword="True" Placeholder="Hasło" MaxLength="50" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <VerticalStackLayout Padding="20" Spacing="10"  Grid.Row="3" Grid.Column="1">
+                <Label Text="Data Urodzenia"/>
+                <DatePicker MaximumDate="2006-12-31" MinimumDate="1950-01-01"/>
+                
+            </VerticalStackLayout>
+            <Picker Title="Płeć" Grid.Row="3" Grid.Column="0">
+                <Picker.Items>
+                    <x:String>Kobieta</x:String>
+                    <x:String>Mężczyzna</x:String>
+                    <x:String>Inna</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <CheckBox Grid.Row="4" Grid.Column="0" HorizontalOptions="End" VerticalOptions="Center" CheckedChanged="abc123"/>
+            <Label Text="Akceptuję warunki użytkowania" Grid.Row="4" Grid.Column="1" VerticalTextAlignment="Center"/>
+
+
+            <Button x:Name="rejButton" IsEnabled="False" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"  Text="Zarejestruj" Clicked="xyz567"/>
+
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
