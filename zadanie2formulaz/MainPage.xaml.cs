@@ -2,7 +2,6 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
@@ -25,3 +24,26 @@
         }
     }
 }
+/*
+ **********************************************************************
+nazwa          abc123
+opis            zamyka dostęp do przycisku jeśli przynajmniej jedno z pól będzie puste
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          xyz678
+opis            wyświetla na ekranie Alert o pomyślnym zalogowaniu
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+
+*
+ */

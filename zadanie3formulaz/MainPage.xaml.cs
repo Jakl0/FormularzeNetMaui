@@ -18,4 +18,25 @@
             DisplayAlert("Zarejestrowano", "😎😎😎", "👍👍👍");
         }
     }
-}//
+}
+/*
+ **********************************************************************
+nazwa          abc123
+opis           zmienia dostępność do przycisku jeśli użytkownik akceptuje bądź nie akceptuje warunków użytkowania
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          xyz567
+opis            informuje o pomyślnej rejestracji wysyłając alert
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+*************************************************************************
+ */

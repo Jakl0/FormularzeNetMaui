@@ -52,3 +52,34 @@
         
     }
 }
+/*
+ **********************************************************************
+nazwa          tematchanged
+opis            przesyła dane z pierwszego pickera do zmiennej , również manipulując drugim pickerem , jego opcjami i dostępnością
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          priorytetchanged
+opis            przesyła wybrane dane do zmiennej
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ nazwa          OnMessageClicked
+opis            funkcja wyświetlająca podsumowujące informacje w alercie po kliknięciu przycisku
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+*
+ */
