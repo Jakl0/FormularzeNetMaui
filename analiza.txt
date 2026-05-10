@@ -1,0 +1,9 @@
+1. służy ułatwieniu wpisywania linków internetowych , dając łatwy dostęp do '/ | .| .com '
+
+2. To powoduje , że podczas pisania tekstu , po prawej stronie kontrolki pojawia się przycisk x którym możemy wyczyścić cały tekst
+
+3. Przycisk "Go" , ponieważ oznacza on przejście w link , bądź wyszukanie go
+
+4. Nie może , bo maksymalna wartość została ustawiona na 255
+
+5. "https://example.com"
