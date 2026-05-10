@@ -9,21 +9,21 @@
             Spacing="25">
 
 
-            <Entry Text="" x:Name="nameEntry" />
-            <Entry Text="" x:Name="mailEntry" />
+            <Entry Text="" x:Name="nameEntry" MaxLength="100" Placeholder="Imie" />
+            <Entry Text="" x:Name="mailEntry"  Keyboard="Email" Placeholder="Email"/>
 
-            <Picker SelectedIndexChanged="tematchanged" x:Name="tematPicker"/>
+            <Picker SelectedIndexChanged="tematchanged" x:Name="tematPicker" Title="Temat"/>
 
 
-            <Editor x:Name="messageEdit"/>
+            <Editor x:Name="messageEdit" Placeholder="Treść wiadomości..."/>
 
-            <Picker SelectedIndexChanged="priorytetchanged" x:Name="priorPicker"/>
+            <Picker SelectedIndexChanged="priorytetchanged" x:Name="priorPicker" Title="Priorytet"/>
             <HorizontalStackLayout>
-                <CheckBox x:Name="copyCheckbox"/>
-                <Label/>
+                <CheckBox x:Name="copyCheckbox" />
+                <Label Text="Wyślij mi kopię wiadomości na email" VerticalOptions="Center"/>
             </HorizontalStackLayout>
 
-            <Button Text="Wyślij"/>
+            <Button Text="Wyślij" Clicked="OnMessageClicked"/>
 
         </VerticalStackLayout>
     </ScrollView>
